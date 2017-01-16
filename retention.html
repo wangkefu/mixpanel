@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div class="blue_header">
+				<div class="blue_header_username">username</div>
+				<div class="user_menu_dropdown">
+					<a href="#">Help center</a>
+					<a href="#">Email support</a>
+					<a href="#">修改密码</a>
+					<a href="#">退出</a>
+				</div>
+			</div>
+			<div id="report">
+				<!--左边按钮部分-->
+				<div id="menu">
+					<div class="toolkit">
+						<div class="menu_header">ENGAGEMENT</div>
+						<a class="link" href="#">
+							<div class="icon icon1"></div>
+							<div class="text">Segmentation</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon2"></div>
+							<div class="text">Funnels</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link selected" href="#">
+							<div class="icon icon3"></div>
+							<div class="text">Retention</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon4"></div>
+							<div class="text">Formulas</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon5"></div>
+							<div class="text">Live view</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon6"></div>
+							<div class="text">A/B Testing</div>
+							<div class="highlight_hack"></div>
+						</a>
+					</div>
+				</div>
+				<!--右边数据展示部分-->
+				<div id="report_content">
+					<div style="padding: 1px 0;">
+						<div class="retention_Top">
+							<div class="reten_TopSelectWrap">
+								<div class="retenTopSelect dropdown-toggle" data-toggle = "dropdown">
+									<div class="retenTop_icon"></div>
+									<span class="retenTop_text">Recurring</span>
+									<span class="caret"></span>
+								</div>
+								<ul class="dropdown-menu retenTop_drop" role="menu">
+									<li role="presentation" class="retenTop_dropDetail">
+										<div class="reten_liIcon"></div>
+										<span class="li_label">Recurring</span><br />
+										<span class="li_subtext">Learn how your most loyal users use your app</span>
+									</li>
+									<li role="presentation" class="retenTop_dropDetail">
+										<div class="reten_liIcon"></div>
+										<span class="li_label">First time</span><br />
+										<span class="li_subtext">Learn how new users use your app</span>
+									</li>
+									<li role="presentation" class="retenTop_dropDetail">
+										<div class="reten_liIcon"></div>
+										<span class="li_label">Addiction</span><br />
+										<span class="li_subtext">Learn how frequently people come back and use your app.</span>
+									</li>
+								</ul>
+							</div>
+							<div class="reten_TopSelectContent">
+								<div class="reten_TopSelectContents reten_TopSelectContent1">
+									<div class="event" onclick='clicks("eventSearch","event","eventSelectOp")'>
+										Anything
+									</div>
+									<div class="eventMenu">
+										<div class="eventSearch">
+											<input type="text" name="" id="" value="" oninput="setinput3(this)"/>
+										</div>
+										<div class="eventOp">
+											<div class="eventSelectOp">Anything</div>
+											<div class="eventSelectOp">Notification Sent</div>
+											<div class="eventSelectOp">PortalActivity-onCreate called</div>
+										</div>
+									</div>
+								</div>
+								<div class="reten_TopSelectContents reten_TopSelectContent2">
+									<div style="width: 100%;height: 105px;border-bottom: 1px solid #eff3f5;">
+										<div class="event2" onclick='clicks("eventSearch2","event2","eventSelectOp2")'>
+											Select an event
+										</div>
+										<div class="eventMenu2">
+											<div class="eventSearch2">
+												<input type="text" name="" id="" value="" oninput="setinput3(this)"/>
+											</div>
+											<div class="eventOp2">
+												<div class="eventSelectOp2">Anything</div>
+												<div class="eventSelectOp2">Notification Sent</div>
+												<div class="eventSelectOp2">PortalActivity-onCreate called</div>
+											</div>
+										</div>
+									</div>
+									<div  style="width: 100%;height: 105px;">
+										<div class="event2_2" onclick='clicks("eventSearch2_2","event2_2","eventSelectOp2_2")'>
+											Anything
+										</div>
+										<div class="eventMenu2_2">
+											<div class="eventSearch2_2">
+												<input type="text" name="" id="" value="" oninput="setinput3(this)"/>
+											</div>
+											<div class="eventOp2_2">
+												<div class="eventSelectOp2_2">Anything</div>
+												<div class="eventSelectOp2_2">Notification Sent</div>
+												<div class="eventSelectOp2_2">PortalActivity-onCreate called</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="reten_TopSelectContents reten_TopSelectContent3">
+									<div class="event3" onclick='clicks("eventSearch3","event3","eventSelectOp3")'>
+										Anything
+									</div>
+									<div class="eventMenu3">
+										<div class="eventSearch3">
+											<input type="text" name="" id="" value="" oninput="setinput3(this)"/>
+										</div>
+										<div class="eventOp3">
+											<div class="eventSelectOp3">Anything</div>
+											<div class="eventSelectOp3">Notification Sent</div>
+											<div class="eventSelectOp3">PortalActivity-onCreate called</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="chart_container">
+						<div class="table_head">
+							<table border="0" >
+								<thead>
+									<tr>
+										<th>Date</th>
+										<th>People</th>
+										<th class="numbers">2 hrs</th>
+										<th class="numbers">3</th>
+										<th class="numbers">4</th>
+										<th class="numbers">5</th>
+										<th class="numbers">6</th>
+										<th class="numbers">7</th>
+										<th class="numbers">8</th>
+										<th class="numbers">9</th>
+										<th class="numbers">10</th>
+										<th class="numbers">11</th>
+										<th class="numbers">12</th>
+										<th class="numbers">13</th>
+										<th class="numbers">14</th>
+									</tr>
+								</thead>
+								<tbody class="table_body">
+									<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td class="td_bg1">1</td>
+									<td class="td_bg2">2</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td>0</td>
+									<td class="td_bg3">3</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg2">2</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td class="td_bg1">1</td>
+									<td>3</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg2">2</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td class="td_bg2">2</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td class="td_bg3">3</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th>Dec 19,2016</th>
+									<th>2</th>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg2">2</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg3">3</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td>0</td>
+									<td class="td_bg1">1</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/highcharts.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/retention.js" type="text/javascript" charset="utf-8"></script>
+</html>

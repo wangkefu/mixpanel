@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<div id="container">
+			<div class="blue_header">
+				<div class="blue_header_username">username</div>
+				<div class="user_menu_dropdown">
+					<a href="#">Help center</a>
+					<a href="#">Email support</a>
+					<a href="#">修改密码</a>
+					<a href="#">退出</a>
+				</div>
+			</div>
+			<div id="report">
+				<!--左边按钮部分-->
+				<div id="menu">
+					<div class="toolkit">
+						<div class="menu_header">ENGAGEMENT</div>
+						<a class="link" href="#">
+							<div class="icon icon1"></div>
+							<div class="text">Segmentation</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon2"></div>
+							<div class="text">Funnels</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link selected" href="#">
+							<div class="icon icon3"></div>
+							<div class="text">Retention</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon4"></div>
+							<div class="text">Formulas</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon5"></div>
+							<div class="text">Live view</div>
+							<div class="highlight_hack"></div>
+						</a>
+						<a class="link" href="#">
+							<div class="icon icon6"></div>
+							<div class="text">A/B Testing</div>
+							<div class="highlight_hack"></div>
+						</a>
+					</div>
+				</div>
+				<!--右边数据展示部分-->
+				<div id="report_content">
+					<div style="padding: 1px 0;">
+						<div class="funnel_tableWrap">
+							<div class="funnel_timeRange dropdown-toggle" data-toggle = "dropdown">
+								<span class="inner_time">2016.12.14-2017.1.12</span><span class="caret"></span>
+							</div>
+							<ul class="dropdown-menu funnel_timerange_drop" role="menu">
+								<li role="presentation" class="drop_times">
+									last day
+								</li>
+								<li role="presentation" class="drop_times">
+									last week
+								</li>
+								<li role="presentation" class="drop_times">
+									last month
+								</li>
+							</ul>
+							<div class="funneltable">
+								<div class="table_load">
+									<img src="img/ajax-loader-big.gif"/>
+									<div>Building your funnel</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/highcharts.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</html>
