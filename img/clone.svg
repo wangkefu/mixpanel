@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c6d4de;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="clone.svg" class="cls-1" d="M586,156H576v12h3v-1.764A4.563,4.563,0,0,1,577,162a5.172,5.172,0,0,0,2,2.2V159h7v-3Zm2,4h-8v4.677a6.747,6.747,0,0,0,3,.323v-2l3,2.25,1,0.75-1,.75L584.333,168,583,169v-2a7.168,7.168,0,0,1-3-.287V172h10V160h-2Z" transform="translate(-576 -156)"/>
+</svg>

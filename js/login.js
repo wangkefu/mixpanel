@@ -43,3 +43,4 @@ btn.onclick = function(e){
 	setCookie("username",userVal,10);//函数传参创建cookie
 	setCookie("password",passVal,10);
 }
+
